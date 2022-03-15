@@ -1,6 +1,5 @@
 export function romanToInteger(str) {
     let result = 0;
-    let count = 0;
     for (let i = 0; i < str.length; i++) {
         switch (str[i] + str[i + 1]) {
             case 'IV':
